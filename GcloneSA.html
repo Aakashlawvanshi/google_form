@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div id="main">
+        <form>
+            <div  id="front">
+        <h4>Assignment Task</h4><br>
+        <p>The name and photo associated with your Google account will be recorded when you upload files and submit this form. Your email is not part of your response.</p>
+        <span>* Indicates required question</span>
+    </div>
+    
+        <div class="smaeprop" id="container" >
+        <span>MCQ</span><span class="requi" aria-label="Required question">*</span><br>
+        
+    
+        <input type="radio" name="op" id="optio1" value="OP1">
+        <label for="option1" >Option 1</label><br>
+
+        <input type="radio"name="op"  id="optio2" value="OP2">
+        <label for="option2">Option 2</label><br>
+        <input type="radio"name="op"  id="optio3" value="OP3">
+        <label for="option3">Option 3</label>
+        
+        </div>
+    
+
+    
+        <div class="smaeprop" id="boxoption">
+            <span>Checkbox</span><span class="requi" aria-label="Required question">*</span><br>
+            <input type="checkbox" id="cb1">
+            <label for="cb1">Option 1</label><br>
+            <input type="checkbox" id="cb2">
+            <label for="cb2">Option 2</label><br>
+            <input type="checkbox" id="cb3">
+            <label for="cb3">Option 3</label><br>
+        </div>
+
+        
+        <div class="smaeprop" id="shortans">
+            <span>Short Answer</span><span class="requi" aria-label="Required question">*</span><br>
+            <input type="text" class="underline-input" placeholder="Your answer">
+        </div>
+
+        
+        <div class="smaeprop" id="paragraph">
+            <span>ParaGraph</span><span class="requi" aria-label="Required question">*</span><br>
+            <input type="text" class="underline-input" placeholder="Your answer">
+        </div>
+        <div class="smaeprop" id="dropdown">
+            <span>Drop Down</span><span class="requi" aria-label="Required question">*</span><br>
+            <select name="choose" id="options">
+                <option value="" disable selected hidden>Chooose</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+        </div>
+        <div class="smaeprop" id="file">
+            <span>File Upload</span><span class="requi" aria-label="Required question">*</span><br>
+            <input type="file"  id="fileuplod">
+        </div>
+
+        <div class="smaeprop" id="linear">
+            <span>Linear Scale</span><span class="requi" aria-label="Required question">*</span><br>
+            <p>Worst</p>
+            <label for="1">1</label>
+            <input type="radio"  class="scale" name="wtb" id="1" ><br>
+            <label for="2">2</label>
+            <input type="radio" class="scale"  name="wtb" id="2"><br>
+            <label for="3">3</label>
+            <input type="radio" class="scale"  name="wtb" id="3"><br>
+            <label for="4">4</label>
+            <input type="radio" class="scale"  name="wtb" id="4"><br>
+            <label for="5">5</label>
+            <input type="radio" class="scale"  name="wtb"id="5"><br>
+            <p>Best</p>
+
+        </div>
+        <div class="smaeprop" id="multichoice">
+            <span>Multichoice Grid</span><span class="requi" aria-label="Required question">*</span><br>
+            <table class="no-gap">
+            <tr >
+                <td></td>
+                <td class="tablerow">Column 1</td>
+                <td class="tablerow">Column 2</td>
+                <td class="tablerow">Column 3</td>
+            </tr>
+
+            <tr class="rowcolor">
+                <td >Row 1</td>
+                <td class="tablerow"><input type="radio" name="BT1" value="bt1"></td>
+                <td class="tablerow"><input type="radio" name="BT1" value="bt2"></td>
+                <td class="tablerow"><input type="radio" name="BT1" value="bt3"></td>
+            </tr>
+            <tr class="rowcolor">
+                <td>Row 2</td>
+                <td class="tablerow"><input type="radio" name="BT2" value="bt4"></td>
+                <td class="tablerow"><input type="radio" name="BT2" value="bt5"></td>
+                <td class="tablerow"><input type="radio" name="BT2" value="bt6"></td>
+            </tr>
+            <tr class="rowcolor">
+                <td>Row 3</td>
+                <td class="tablerow"><input type="radio" name="BT3" value="bt7"></td>
+                <td class="tablerow"><input type="radio" name="BT3" value="bt8"></td>
+                <td class="tablerow"><input type="radio" name="BT3" value="bt9"></td>
+            </tr>
+
+
+            </table>
+        </div>
+        <div class="smaeprop" id="mutibox">
+            <span>Tick box Grid</span><span class="requi" aria-label="Required question">*</span><br>
+            <table class="no-gap">
+                <tr>
+                    <td></td>
+                    <td class="tablerow">Column 1</td>
+                    <td class="tablerow">Column 2</td>
+                    <td class="tablerow">Column 3</td>
+                </tr>
+                <tr class="rowcolor">
+                    <td>Row 1</td>
+                    <td class="tablerow"><input type="checkbox" name="" id=""></td>
+                    <td class="tablerow"><input type="checkbox" name="" id=""></td>
+                    <td class="tablerow"><input type="checkbox" name="" id=""></td>
+                </tr>
+                <tr class="rowcolor">
+                    <td>Row 2</td>
+                    <td class="tablerow"><input type="checkbox" name="" id=""></td>
+                    <td class="tablerow"><input type="checkbox" name="" id=""></td>
+                    <td class="tablerow"><input type="checkbox" name="" id=""></td>
+                </tr>
+                <tr class="rowcolor">
+                    <td>Row 3</td>
+                    <td class="tablerow"><input type="checkbox" name="" id=""></td>
+                    <td class="tablerow"><input type="checkbox" name="" id=""></td>
+                    <td class="tablerow"><input type="checkbox" name="" id=""></td>
+                </tr>
+            </table>
+        </div>
+        <div id="sbtn">
+            <a href="#">Submit</a>
+        </div>
+        <div id="page">
+        </div>
+        <div id="oneof1">Page 1 of 1</div>
+        
+        <div id="clea"><a href="#">Clear form</a></div>
+
+    </form>
+
+</div>
+</body>
+</html>
